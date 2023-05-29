@@ -17,6 +17,8 @@
 		368759772A2211E000F6D4D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368759762A2211E000F6D4D3 /* HomeView.swift */; };
 		3687599D2A247AA600F6D4D3 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687599C2A247AA600F6D4D3 /* CircleGroupView.swift */; };
 		3687599F2A2489D400F6D4D3 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687599E2A2489D400F6D4D3 /* AudioPlayer.swift */; };
+		368759A42A248E6000F6D4D3 /* screenshot-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 368759A22A248E6000F6D4D3 /* screenshot-2.png */; };
+		368759A52A248E6000F6D4D3 /* screenshot-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 368759A32A248E6000F6D4D3 /* screenshot-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		368759762A2211E000F6D4D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3687599C2A247AA600F6D4D3 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		3687599E2A2489D400F6D4D3 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		368759A22A248E6000F6D4D3 /* screenshot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-2.png"; sourceTree = "<group>"; };
+		368759A32A248E6000F6D4D3 /* screenshot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				3687595D2A220F4500F6D4D3 /* Restart_SwiftUIApp.swift */,
 				368759612A220F4700F6D4D3 /* Assets.xcassets */,
 				368759632A220F4700F6D4D3 /* Preview Content */,
+				368759A02A248E6000F6D4D3 /* docs */,
 			);
 			path = "Restart-SwiftUI";
 			sourceTree = "<group>";
@@ -117,6 +122,23 @@
 				3687599C2A247AA600F6D4D3 /* CircleGroupView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		368759A02A248E6000F6D4D3 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				368759A12A248E6000F6D4D3 /* images */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		368759A12A248E6000F6D4D3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				368759A22A248E6000F6D4D3 /* screenshot-2.png */,
+				368759A32A248E6000F6D4D3 /* screenshot-1.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +202,8 @@
 				3687596F2A220FB100F6D4D3 /* success.m4a in Resources */,
 				3687596E2A220FB100F6D4D3 /* chimeup.mp3 in Resources */,
 				368759652A220F4700F6D4D3 /* Preview Assets.xcassets in Resources */,
+				368759A52A248E6000F6D4D3 /* screenshot-1.png in Resources */,
+				368759A42A248E6000F6D4D3 /* screenshot-2.png in Resources */,
 				368759622A220F4700F6D4D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
